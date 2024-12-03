@@ -3,10 +3,11 @@ package Homework;
 import org.testng.annotations.Test;
 
 public class ConvertMinutesIntoSeconds {
+
     public Integer minutes;
     public Integer seconds;
 
-@Test
+    @Test
     public void convertMinutesIntoSeconds() {
         minutes = 5;
         seconds = minutes * 60;
