@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- added a new class and calculated the area of a square">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/TheVolumeOfaCylinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Homework/TheAreaOfASquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework/TheAreaOfASquare.java" afterDir="false" />
+    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- added a new class and calculated the volume of a cylinder">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/ConvertFahnrenheitToCelsius.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.ConvertFahnrenheitToCelsius.executor": "Run",
     "TestNG.ConvertMinutesIntoSeconds.executor": "Run",
     "TestNG.TheAreaOfASquare.calculateTheAreaOfASquare.executor": "Run",
     "TestNG.ThePerimeterOfARectangle.calculateThePerimeterOfARectangle.executor": "Run",
@@ -61,8 +60,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TheVolumeOfaCylinder">
-    <configuration name="ConvertMinutesIntoSeconds" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ConvertFahnrenheitToCelsius.convertFahrenheitToCelsius">
+    <configuration name="ConvertFahnrenheitToCelsius" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +70,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Homework" />
-      <option name="MAIN_CLASS_NAME" value="Homework.ConvertMinutesIntoSeconds" />
+      <option name="MAIN_CLASS_NAME" value="Homework.ConvertFahnrenheitToCelsius" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConvertFahnrenheitToCelsius.convertFahrenheitToCelsius" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataTypesExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework" />
+      <option name="MAIN_CLASS_NAME" value="Homework.ConvertFahnrenheitToCelsius" />
+      <option name="METHOD_NAME" value="convertFahrenheitToCelsius" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -114,24 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThePerimeterOfARectangle.calculateThePerimeterOfARectangle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataTypesExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Homework" />
-      <option name="MAIN_CLASS_NAME" value="Homework.ThePerimeterOfARectangle" />
-      <option name="METHOD_NAME" value="calculateThePerimeterOfARectangle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TheVolumeOfaCylinder" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
@@ -151,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ConvertFahnrenheitToCelsius.convertFahrenheitToCelsius" />
+        <item itemvalue="TestNG.ConvertFahnrenheitToCelsius" />
         <item itemvalue="TestNG.TheVolumeOfaCylinder" />
         <item itemvalue="TestNG.TheAreaOfASquare.calculateTheAreaOfASquare" />
         <item itemvalue="TestNG.ThePerimeterOfARectangle" />
-        <item itemvalue="TestNG.ConvertMinutesIntoSeconds" />
-        <item itemvalue="TestNG.ThePerimeterOfARectangle.calculateThePerimeterOfARectangle" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +177,7 @@
       <workItem from="1733217466985" duration="13708000" />
       <workItem from="1733321845268" duration="2838000" />
       <workItem from="1734705050047" duration="4995000" />
-      <workItem from="1734807358399" duration="344000" />
+      <workItem from="1734807358399" duration="722000" />
     </task>
     <task id="LOCAL-00001" summary="- created Homework package&#10;- created class ThePerimeterOfARectangle and solved exercise&#10;- created ConvertMinutesIntoSeconds class and solved exercise">
       <option name="closed" value="true" />
@@ -204,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734705505760</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- added a new class and calculated the volume of a cylinder">
+      <option name="closed" value="true" />
+      <created>1734807787984</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734807787984</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +232,8 @@
     <MESSAGE value="- created Homework package&#10;- created class ThePerimeterOfARectangle and solved exercise&#10;- created ConvertMinutesIntoSeconds class and solved exercise" />
     <MESSAGE value="- fixed alignment" />
     <MESSAGE value="- added a new class and calculated the area of a square" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added a new class and calculated the area of a square" />
+    <MESSAGE value="- added a new class and calculated the volume of a cylinder" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added a new class and calculated the volume of a cylinder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
