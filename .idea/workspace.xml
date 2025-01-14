@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- created a new branch &#10;- created a new class and solved CheckingWeatherConditions exercise">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/PrintACharacter.java" afterDir="false" />
+    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- created a new branch Print A Character&#10;- created a new class and solved PrintACharacter exercise">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/CharacterConversionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +50,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.BooleanValueAssignmentAndPrinting.executor": "Run",
     "TestNG.CalculateTheHypotenuseOfARightAngledTriangle.executor": "Run",
+    "TestNG.CharacterConversionTest.CharacterConversion.executor": "Run",
     "TestNG.ConvertFahnrenheitToCelsius.convertFahrenheitToCelsius.executor": "Run",
     "TestNG.ConvertFahnrenheitToCelsius.executor": "Run",
     "TestNG.ConvertMinutesIntoSeconds.executor": "Run",
+    "TestNG.PrintACharacter.printACharacter.executor": "Run",
     "TestNG.TheAreaOfASquare.calculateTheAreaOfASquare.executor": "Run",
     "TestNG.ThePerimeterOfARectangle.calculateThePerimeterOfARectangle.executor": "Run",
     "TestNG.ThePerimeterOfARectangle.executor": "Run",
@@ -71,7 +74,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.PrintACharacter.printACharacter">
+  <component name="RunManager" selected="TestNG.CharacterConversionTest.CharacterConversion">
     <configuration name="BooleanComparison (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework.BooleanComparison" />
       <module name="DataTypesExercises" />
@@ -111,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BooleanValueAssignmentAndPrinting" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CharacterConversionTest.CharacterConversion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
         <pattern>
@@ -120,8 +123,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Homework" />
-      <option name="MAIN_CLASS_NAME" value="Homework.BooleanValueAssignmentAndPrinting" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="Homework.CharacterConversionTest" />
+      <option name="METHOD_NAME" value="CharacterConversion" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -148,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CharacterConversionTest.CharacterConversion" />
         <item itemvalue="TestNG.PrintACharacter.printACharacter" />
         <item itemvalue="Application.CheckingWeatherConditions" />
         <item itemvalue="Application.BooleanComparison (1)" />
         <item itemvalue="Application.BooleanComparison" />
-        <item itemvalue="TestNG.BooleanValueAssignmentAndPrinting" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +180,7 @@
       <workItem from="1733321845268" duration="2838000" />
       <workItem from="1734705050047" duration="4995000" />
       <workItem from="1734807358399" duration="4647000" />
-      <workItem from="1736348050466" duration="5256000" />
+      <workItem from="1736348050466" duration="6452000" />
     </task>
     <task id="LOCAL-00001" summary="- created Homework package&#10;- created class ThePerimeterOfARectangle and solved exercise&#10;- created ConvertMinutesIntoSeconds class and solved exercise">
       <option name="closed" value="true" />
@@ -242,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736880494868</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="- created a new branch Print A Character&#10;- created a new class and solved PrintACharacter exercise">
+      <option name="closed" value="true" />
+      <created>1736881147037</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1736881147037</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +280,8 @@
     <MESSAGE value="- created a new branch&#10;- added a new class and calculated the hypoteneuse of right angle triangle" />
     <MESSAGE value="- added a new class where I compared 2 integers" />
     <MESSAGE value="- created a new branch &#10;- created a new class and solved CheckingWeatherConditions exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="- created a new branch &#10;- created a new class and solved CheckingWeatherConditions exercise" />
+    <MESSAGE value="- created a new branch Print A Character&#10;- created a new class and solved PrintACharacter exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="- created a new branch Print A Character&#10;- created a new class and solved PrintACharacter exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
