@@ -12,10 +12,10 @@ public class CharacterConversionTest {
         char myLowerCaseChar = 'a';
         char myUpperCaseChar = 'Z';
 
-        char concertedToUpper = Character.toUpperCase(myLowerCaseChar);
-        char concertedToLower = Character.toLowerCase(myUpperCaseChar);
-        System.out.println("Lowercase 'a' converted to uppercase: " + concertedToUpper);
-        System.out.println("Uppercase 'Z' converted to lowercase: " + concertedToLower);
+        char convertedToUpper = Character.toUpperCase(myLowerCaseChar);
+        char convertedToLower = Character.toLowerCase(myUpperCaseChar);
+        System.out.println("Lowercase 'a' converted to uppercase: " + convertedToUpper);
+        System.out.println("Uppercase 'Z' converted to lowercase: " + convertedToLower);
 
     }
 }
