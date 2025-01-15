@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- fixed typo">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/ConcatenateCharacterWithStringTest.java" afterDir="false" />
+    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- created a new class ConcatenateCharacterWithStringTest.java&#10;- solved exercise">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/PrintAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Checking-Weather-Conditions" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,7 +61,7 @@
     "TestNG.ThePerimeterOfARectangle.executor": "Run",
     "TestNG.TheVolumeOfaCylinder.executor": "Run",
     "TestNG.theVolumeOfACylinder.executor": "Run",
-    "git-widget-placeholder": "Char-(char)-Exercises",
+    "git-widget-placeholder": "String-(String)-Exercises",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -74,7 +75,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.ConcatenateCharacterWithStringTest">
+  <component name="RunManager" selected="TestNG.PrintAString">
     <configuration name="BooleanComparison (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework.BooleanComparison" />
       <module name="DataTypesExercises" />
@@ -88,20 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckingWeatherConditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework.CheckingWeatherConditions" />
-      <module name="DataTypesExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CharacterConversionTest.CharacterConversion" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BooleanValueAssignmentAndPrinting" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
         <pattern>
@@ -110,25 +98,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Homework" />
-      <option name="MAIN_CLASS_NAME" value="Homework.CharacterConversionTest" />
-      <option name="METHOD_NAME" value="CharacterConversion" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConcatenateCharacterWithStringTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataTypesExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Homework" />
-      <option name="MAIN_CLASS_NAME" value="Homework.ConcatenateCharacterWithStringTest" />
+      <option name="MAIN_CLASS_NAME" value="Homework.BooleanValueAssignmentAndPrinting" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -136,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintACharacter.printACharacter" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PrintAString" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
         <pattern>
@@ -145,9 +115,42 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Homework" />
-      <option name="MAIN_CLASS_NAME" value="Homework.PrintACharacter" />
-      <option name="METHOD_NAME" value="printACharacter" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="Homework.PrintAString" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThePerimeterOfARectangle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataTypesExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework" />
+      <option name="MAIN_CLASS_NAME" value="Homework.ThePerimeterOfARectangle" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TheVolumeOfaCylinder" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataTypesExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework" />
+      <option name="MAIN_CLASS_NAME" value="Homework.TheVolumeOfaCylinder" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -156,10 +159,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ConcatenateCharacterWithStringTest" />
-        <item itemvalue="TestNG.CharacterConversionTest.CharacterConversion" />
-        <item itemvalue="TestNG.PrintACharacter.printACharacter" />
-        <item itemvalue="Application.CheckingWeatherConditions" />
+        <item itemvalue="TestNG.PrintAString" />
+        <item itemvalue="TestNG.TheVolumeOfaCylinder" />
+        <item itemvalue="TestNG.ThePerimeterOfARectangle" />
+        <item itemvalue="TestNG.BooleanValueAssignmentAndPrinting" />
         <item itemvalue="Application.BooleanComparison (1)" />
       </list>
     </recent_temporary>
@@ -184,7 +187,7 @@
       <workItem from="1733321845268" duration="2838000" />
       <workItem from="1734705050047" duration="4995000" />
       <workItem from="1734807358399" duration="4647000" />
-      <workItem from="1736348050466" duration="8379000" />
+      <workItem from="1736348050466" duration="15295000" />
     </task>
     <task id="LOCAL-00001" summary="- created Homework package&#10;- created class ThePerimeterOfARectangle and solved exercise&#10;- created ConvertMinutesIntoSeconds class and solved exercise">
       <option name="closed" value="true" />
@@ -274,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736883805801</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="- created a new class ConcatenateCharacterWithStringTest.java&#10;- solved exercise">
+      <option name="closed" value="true" />
+      <created>1736884353857</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1736884353857</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +314,8 @@
     <MESSAGE value="- created a new branch Print A Character&#10;- created a new class and solved PrintACharacter exercise" />
     <MESSAGE value="- created a new class and solved CharacterConversion exercise" />
     <MESSAGE value="- fixed typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="- fixed typo" />
+    <MESSAGE value="- created a new class ConcatenateCharacterWithStringTest.java&#10;- solved exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="- created a new class ConcatenateCharacterWithStringTest.java&#10;- solved exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
