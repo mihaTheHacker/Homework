@@ -1,4 +1,4 @@
-package Homework;
+package DataTypesExercises;
 
 //Create a program that concatenates two strings and prints the result.
 

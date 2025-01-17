@@ -1,4 +1,4 @@
-package Homework;
+package DataTypesExercises;
 
 //Write a program to decide if you should go out based on the weather conditions.
 //The decision is based on three factors: if it's sunny, if there's a chance of rain, and if it's warm.

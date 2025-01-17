@@ -1,4 +1,4 @@
-package Homework;
+package DataTypesExercises;
 
 //Print a String
 //Write a program that initializes a String variable with a value and prints it.

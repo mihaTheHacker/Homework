@@ -1,4 +1,4 @@
-package Homework;
+package DataTypesExercises;
 
 //Create a program that demonstrates how to add a character to both the beginning and end of a string.
 //This exercise will help you understand how characters and strings can be combined to create new string values.

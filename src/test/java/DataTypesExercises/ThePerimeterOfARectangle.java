@@ -1,4 +1,4 @@
-package Homework;
+package DataTypesExercises;
 
 import org.testng.annotations.Test;
 
