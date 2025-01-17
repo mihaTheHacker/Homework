@@ -1,6 +1,5 @@
 package Homework;
 
-import org.openqa.selenium.json.JsonOutput;
 import org.testng.annotations.Test;
 
 public class ReplaceDoublePrice {
