@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- fixed typo">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/ConcatenateCharacterWithStringTest.java" afterDir="false" />
+    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- I created a new class ReplaceStrings.java&#10;- I created a new exercise in which I replaced a string">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/ReplaceDoublePrice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Checking-Weather-Conditions" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,16 +51,21 @@
     "TestNG.CalculateTheHypotenuseOfARightAngledTriangle.executor": "Run",
     "TestNG.CharacterConversionTest.CharacterConversion.executor": "Run",
     "TestNG.ConcatenateCharacterWithStringTest.executor": "Run",
+    "TestNG.ConcatenateTwoStrings.executor": "Run",
     "TestNG.ConvertFahnrenheitToCelsius.convertFahrenheitToCelsius.executor": "Run",
     "TestNG.ConvertFahnrenheitToCelsius.executor": "Run",
     "TestNG.ConvertMinutesIntoSeconds.executor": "Run",
     "TestNG.PrintACharacter.printACharacter.executor": "Run",
+    "TestNG.PrintAString.executor": "Run",
+    "TestNG.ReplaceDigits.replaceDigits.executor": "Run",
+    "TestNG.ReplaceDoublePrice.executor": "Run",
+    "TestNG.ReplaceStrings.executor": "Run",
     "TestNG.TheAreaOfASquare.calculateTheAreaOfASquare.executor": "Run",
     "TestNG.ThePerimeterOfARectangle.calculateThePerimeterOfARectangle.executor": "Run",
     "TestNG.ThePerimeterOfARectangle.executor": "Run",
     "TestNG.TheVolumeOfaCylinder.executor": "Run",
     "TestNG.theVolumeOfACylinder.executor": "Run",
-    "git-widget-placeholder": "Char-(char)-Exercises",
+    "git-widget-placeholder": "String-(String)-Exercises",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -74,34 +79,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.ConcatenateCharacterWithStringTest">
-    <configuration name="BooleanComparison (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework.BooleanComparison" />
-      <module name="DataTypesExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckingWeatherConditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework.CheckingWeatherConditions" />
-      <module name="DataTypesExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CharacterConversionTest.CharacterConversion" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ReplaceDoublePrice">
+    <configuration name="ConcatenateTwoStrings" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
         <pattern>
@@ -110,25 +89,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Homework" />
-      <option name="MAIN_CLASS_NAME" value="Homework.CharacterConversionTest" />
-      <option name="METHOD_NAME" value="CharacterConversion" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConcatenateCharacterWithStringTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataTypesExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Homework" />
-      <option name="MAIN_CLASS_NAME" value="Homework.ConcatenateCharacterWithStringTest" />
+      <option name="MAIN_CLASS_NAME" value="Homework.ConcatenateTwoStrings" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -136,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintACharacter.printACharacter" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ReplaceCharacters" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
         <pattern>
@@ -145,9 +106,60 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Homework" />
-      <option name="MAIN_CLASS_NAME" value="Homework.PrintACharacter" />
-      <option name="METHOD_NAME" value="printACharacter" />
+      <option name="MAIN_CLASS_NAME" value="Homework.ReplaceCharacters" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReplaceDigits.replaceDigits" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataTypesExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework" />
+      <option name="MAIN_CLASS_NAME" value="Homework.ReplaceDigits" />
+      <option name="METHOD_NAME" value="replaceDigits" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReplaceDoublePrice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataTypesExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework" />
+      <option name="MAIN_CLASS_NAME" value="Homework.ReplaceDoublePrice" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReplaceStrings" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataTypesExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework" />
+      <option name="MAIN_CLASS_NAME" value="Homework.ReplaceStrings" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -156,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ConcatenateCharacterWithStringTest" />
-        <item itemvalue="TestNG.CharacterConversionTest.CharacterConversion" />
-        <item itemvalue="TestNG.PrintACharacter.printACharacter" />
-        <item itemvalue="Application.CheckingWeatherConditions" />
-        <item itemvalue="Application.BooleanComparison (1)" />
+        <item itemvalue="TestNG.ReplaceDoublePrice" />
+        <item itemvalue="TestNG.ReplaceStrings" />
+        <item itemvalue="TestNG.ReplaceDigits.replaceDigits" />
+        <item itemvalue="TestNG.ReplaceCharacters" />
+        <item itemvalue="TestNG.ConcatenateTwoStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +196,8 @@
       <workItem from="1733321845268" duration="2838000" />
       <workItem from="1734705050047" duration="4995000" />
       <workItem from="1734807358399" duration="4647000" />
-      <workItem from="1736348050466" duration="8379000" />
+      <workItem from="1736348050466" duration="17822000" />
+      <workItem from="1737026870635" duration="8507000" />
     </task>
     <task id="LOCAL-00001" summary="- created Homework package&#10;- created class ThePerimeterOfARectangle and solved exercise&#10;- created ConvertMinutesIntoSeconds class and solved exercise">
       <option name="closed" value="true" />
@@ -274,7 +287,63 @@
       <option name="project" value="LOCAL" />
       <updated>1736883805801</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="- created a new class ConcatenateCharacterWithStringTest.java&#10;- solved exercise">
+      <option name="closed" value="true" />
+      <created>1736884353857</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1736884353857</updated>
+    </task>
+    <task id="LOCAL-00013" summary="- created a new branch String (String) Exercises&#10;- created a new class PrintAString.java and solved the first exercise">
+      <option name="closed" value="true" />
+      <created>1736957298947</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1736957298947</updated>
+    </task>
+    <task id="LOCAL-00014" summary="- created a new class ConcatenateTwoStrings.java and solved the second exercise">
+      <option name="closed" value="true" />
+      <created>1736957787422</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1736957787422</updated>
+    </task>
+    <task id="LOCAL-00015" summary="- created a new class ConcatenateTwoStrings.java and solved the second exercise">
+      <option name="closed" value="true" />
+      <created>1737042399869</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1737042399869</updated>
+    </task>
+    <task id="LOCAL-00016" summary="- created a new class ReplaceDigits.java and solved the replacement exercise for digits">
+      <option name="closed" value="true" />
+      <created>1737115803416</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1737115803416</updated>
+    </task>
+    <task id="LOCAL-00017" summary="- I declared a new variable newDigitsString&#10;- I added 2 extra commands to print both the original and the modified information to the console">
+      <option name="closed" value="true" />
+      <created>1737116611307</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1737116611308</updated>
+    </task>
+    <task id="LOCAL-00018" summary="- I created a new class ReplaceStrings.java&#10;- I created a new exercise in which I replaced a string">
+      <option name="closed" value="true" />
+      <created>1737117576307</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1737117576307</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +372,13 @@
     <MESSAGE value="- created a new branch Print A Character&#10;- created a new class and solved PrintACharacter exercise" />
     <MESSAGE value="- created a new class and solved CharacterConversion exercise" />
     <MESSAGE value="- fixed typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="- fixed typo" />
+    <MESSAGE value="- created a new class ConcatenateCharacterWithStringTest.java&#10;- solved exercise" />
+    <MESSAGE value="- created a new branch String (String) Exercises&#10;- created a new class PrintAString.java and solved the first exercise" />
+    <MESSAGE value="- created a new class ConcatenateTwoStrings.java and solved the second exercise" />
+    <MESSAGE value="- created a new class ReplaceDigits.java and solved the replacement exercise for digits" />
+    <MESSAGE value="- I declared a new variable newDigitsString&#10;- I added 2 extra commands to print both the original and the modified information to the console" />
+    <MESSAGE value="- I created a new class ReplaceStrings.java&#10;- I created a new exercise in which I replaced a string" />
+    <option name="LAST_COMMIT_MESSAGE" value="- I created a new class ReplaceStrings.java&#10;- I created a new exercise in which I replaced a string" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
