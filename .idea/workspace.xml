@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- created a new class ConcatenateTwoStrings.java and solved the second exercise">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/ReplaceCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/ReplaceDigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,44 +40,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BooleanComparison (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.BooleanComparison.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CheckingWeatherConditions.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.BooleanValueAssignmentAndPrinting.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CalculateTheHypotenuseOfARightAngledTriangle.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CharacterConversionTest.CharacterConversion.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ConcatenateCharacterWithStringTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ConcatenateTwoStrings.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ConvertFahnrenheitToCelsius.convertFahrenheitToCelsius.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ConvertFahnrenheitToCelsius.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ConvertMinutesIntoSeconds.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PrintACharacter.printACharacter.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PrintAString.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TheAreaOfASquare.calculateTheAreaOfASquare.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ThePerimeterOfARectangle.calculateThePerimeterOfARectangle.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ThePerimeterOfARectangle.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TheVolumeOfaCylinder.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.theVolumeOfACylinder.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;String-(String)-Exercises&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/mibudeanu/IdeaProjects/DataTypesExercises/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BooleanComparison (1).executor": "Run",
+    "Application.BooleanComparison.executor": "Run",
+    "Application.CheckingWeatherConditions.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.BooleanValueAssignmentAndPrinting.executor": "Run",
+    "TestNG.CalculateTheHypotenuseOfARightAngledTriangle.executor": "Run",
+    "TestNG.CharacterConversionTest.CharacterConversion.executor": "Run",
+    "TestNG.ConcatenateCharacterWithStringTest.executor": "Run",
+    "TestNG.ConcatenateTwoStrings.executor": "Run",
+    "TestNG.ConvertFahnrenheitToCelsius.convertFahrenheitToCelsius.executor": "Run",
+    "TestNG.ConvertFahnrenheitToCelsius.executor": "Run",
+    "TestNG.ConvertMinutesIntoSeconds.executor": "Run",
+    "TestNG.PrintACharacter.printACharacter.executor": "Run",
+    "TestNG.PrintAString.executor": "Run",
+    "TestNG.ReplaceDigits.replaceDigits.executor": "Run",
+    "TestNG.TheAreaOfASquare.calculateTheAreaOfASquare.executor": "Run",
+    "TestNG.ThePerimeterOfARectangle.calculateThePerimeterOfARectangle.executor": "Run",
+    "TestNG.ThePerimeterOfARectangle.executor": "Run",
+    "TestNG.TheVolumeOfaCylinder.executor": "Run",
+    "TestNG.theVolumeOfACylinder.executor": "Run",
+    "git-widget-placeholder": "String-(String)-Exercises",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/mibudeanu/IdeaProjects/DataTypesExercises/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.ReplaceCharacters">
+}]]></component>
+  <component name="RunManager" selected="TestNG.ReplaceDigits.replaceDigits">
     <configuration name="ConcatenateTwoStrings" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
@@ -129,7 +130,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThePerimeterOfARectangle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ReplaceDigits.replaceDigits" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
         <pattern>
@@ -138,8 +139,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Homework" />
-      <option name="MAIN_CLASS_NAME" value="Homework.ThePerimeterOfARectangle" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="Homework.ReplaceDigits" />
+      <option name="METHOD_NAME" value="replaceDigits" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -165,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ReplaceDigits.replaceDigits" />
         <item itemvalue="TestNG.ReplaceCharacters" />
         <item itemvalue="TestNG.ConcatenateTwoStrings" />
         <item itemvalue="TestNG.PrintAString" />
         <item itemvalue="TestNG.TheVolumeOfaCylinder" />
-        <item itemvalue="TestNG.ThePerimeterOfARectangle" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +196,7 @@
       <workItem from="1734705050047" duration="4995000" />
       <workItem from="1734807358399" duration="4647000" />
       <workItem from="1736348050466" duration="17822000" />
-      <workItem from="1737026870635" duration="3259000" />
+      <workItem from="1737026870635" duration="6214000" />
     </task>
     <task id="LOCAL-00001" summary="- created Homework package&#10;- created class ThePerimeterOfARectangle and solved exercise&#10;- created ConvertMinutesIntoSeconds class and solved exercise">
       <option name="closed" value="true" />
@@ -308,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736957787422</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="- created a new class ConcatenateTwoStrings.java and solved the second exercise">
+      <option name="closed" value="true" />
+      <created>1737042399869</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1737042399869</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
