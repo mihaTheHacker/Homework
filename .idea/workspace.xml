@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- created a new class ReplaceDigits.java and solved the replacement exercise for digits">
+    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- I declared a new variable newDigitsString&#10;- I added 2 extra commands to print both the original and the modified information to the console">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/ReplaceStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Homework/ReplaceDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework/ReplaceDigits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,7 @@
     "TestNG.PrintACharacter.printACharacter.executor": "Run",
     "TestNG.PrintAString.executor": "Run",
     "TestNG.ReplaceDigits.replaceDigits.executor": "Run",
+    "TestNG.ReplaceStrings.executor": "Run",
     "TestNG.TheAreaOfASquare.calculateTheAreaOfASquare.executor": "Run",
     "TestNG.ThePerimeterOfARectangle.calculateThePerimeterOfARectangle.executor": "Run",
     "TestNG.ThePerimeterOfARectangle.executor": "Run",
@@ -78,7 +79,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.ReplaceDigits.replaceDigits">
+  <component name="RunManager" selected="TestNG.ReplaceStrings">
     <configuration name="ConcatenateTwoStrings" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
@@ -148,7 +149,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TheVolumeOfaCylinder" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ReplaceStrings" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
         <pattern>
@@ -157,7 +158,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Homework" />
-      <option name="MAIN_CLASS_NAME" value="Homework.TheVolumeOfaCylinder" />
+      <option name="MAIN_CLASS_NAME" value="Homework.ReplaceStrings" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -167,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ReplaceStrings" />
         <item itemvalue="TestNG.ReplaceDigits.replaceDigits" />
         <item itemvalue="TestNG.ReplaceCharacters" />
         <item itemvalue="TestNG.ConcatenateTwoStrings" />
         <item itemvalue="TestNG.PrintAString" />
-        <item itemvalue="TestNG.TheVolumeOfaCylinder" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +197,7 @@
       <workItem from="1734705050047" duration="4995000" />
       <workItem from="1734807358399" duration="4647000" />
       <workItem from="1736348050466" duration="17822000" />
-      <workItem from="1737026870635" duration="6902000" />
+      <workItem from="1737026870635" duration="8011000" />
     </task>
     <task id="LOCAL-00001" summary="- created Homework package&#10;- created class ThePerimeterOfARectangle and solved exercise&#10;- created ConvertMinutesIntoSeconds class and solved exercise">
       <option name="closed" value="true" />
@@ -326,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737115803416</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="- I declared a new variable newDigitsString&#10;- I added 2 extra commands to print both the original and the modified information to the console">
+      <option name="closed" value="true" />
+      <created>1737116611307</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1737116611308</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +368,8 @@
     <MESSAGE value="- created a new branch String (String) Exercises&#10;- created a new class PrintAString.java and solved the first exercise" />
     <MESSAGE value="- created a new class ConcatenateTwoStrings.java and solved the second exercise" />
     <MESSAGE value="- created a new class ReplaceDigits.java and solved the replacement exercise for digits" />
-    <option name="LAST_COMMIT_MESSAGE" value="- created a new class ReplaceDigits.java and solved the replacement exercise for digits" />
+    <MESSAGE value="- I declared a new variable newDigitsString&#10;- I added 2 extra commands to print both the original and the modified information to the console" />
+    <option name="LAST_COMMIT_MESSAGE" value="- I declared a new variable newDigitsString&#10;- I added 2 extra commands to print both the original and the modified information to the console" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
