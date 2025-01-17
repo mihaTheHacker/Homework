@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- I created a new package &quot;OperatorsIfBlocksAndSwitchBreakAndContinueExercises&quot;&#10;- I created a new branch &quot;Operators&quot;&#10;- I created a new class SumOfTwoIntegers.java&#10;- solved the first exercise">
-      <change afterPath="$PROJECT_DIR$/src/test/java/OperatorsIfBlocksAndSwitchBreakAndContinueExercises/DifferenceOfTwoIntegers.java" afterDir="false" />
+    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- I created a new class DifferenceOfTwoIntegers.java&#10;- I solved the exercise">
+      <change afterPath="$PROJECT_DIR$/src/test/java/OperatorsIfBlocksAndSwitchBreakAndContinueExercises/MultiplicationOfTwoIntegers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,7 @@
     "TestNG.ConvertFahnrenheitToCelsius.executor": "Run",
     "TestNG.ConvertMinutesIntoSeconds.executor": "Run",
     "TestNG.DifferenceOfTwoIntegers.executor": "Run",
+    "TestNG.MultiplicationOfTwoIntegers.executor": "Run",
     "TestNG.PrintACharacter.printACharacter.executor": "Run",
     "TestNG.PrintAString.executor": "Run",
     "TestNG.ReplaceDigits.replaceDigits.executor": "Run",
@@ -82,24 +83,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.DifferenceOfTwoIntegers">
-    <configuration name="BooleanValueAssignmentAndPrinting" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataTypesExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Homework" />
-      <option name="MAIN_CLASS_NAME" value="Homework.BooleanValueAssignmentAndPrinting" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.MultiplicationOfTwoIntegers">
     <configuration name="DifferenceOfTwoIntegers" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
@@ -110,6 +94,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises" />
       <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.DifferenceOfTwoIntegers" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiplicationOfTwoIntegers" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataTypesExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises" />
+      <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.MultiplicationOfTwoIntegers" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -171,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MultiplicationOfTwoIntegers" />
         <item itemvalue="TestNG.DifferenceOfTwoIntegers" />
         <item itemvalue="TestNG.SumOfTwoIntegers.sumOfTwoIntegers" />
         <item itemvalue="TestNG.TheVolumeOfaCylinder" />
         <item itemvalue="TestNG.ThePerimeterOfARectangle" />
-        <item itemvalue="TestNG.BooleanValueAssignmentAndPrinting" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +202,7 @@
       <workItem from="1734807358399" duration="4647000" />
       <workItem from="1736348050466" duration="17822000" />
       <workItem from="1737026870635" duration="11178000" />
-      <workItem from="1737140793756" duration="1833000" />
+      <workItem from="1737140793756" duration="2530000" />
     </task>
     <task id="LOCAL-00001" summary="- created Homework package&#10;- created class ThePerimeterOfARectangle and solved exercise&#10;- created ConvertMinutesIntoSeconds class and solved exercise">
       <option name="closed" value="true" />
@@ -379,7 +380,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737142261269</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="- I created a new class DifferenceOfTwoIntegers.java&#10;- I solved the exercise">
+      <option name="closed" value="true" />
+      <created>1737142829207</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1737142829208</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +427,8 @@
     <MESSAGE value="- I removed unused imported class" />
     <MESSAGE value="- Test commit" />
     <MESSAGE value="- I created a new package &quot;OperatorsIfBlocksAndSwitchBreakAndContinueExercises&quot;&#10;- I created a new branch &quot;Operators&quot;&#10;- I created a new class SumOfTwoIntegers.java&#10;- solved the first exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="- I created a new package &quot;OperatorsIfBlocksAndSwitchBreakAndContinueExercises&quot;&#10;- I created a new branch &quot;Operators&quot;&#10;- I created a new class SumOfTwoIntegers.java&#10;- solved the first exercise" />
+    <MESSAGE value="- I created a new class DifferenceOfTwoIntegers.java&#10;- I solved the exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="- I created a new class DifferenceOfTwoIntegers.java&#10;- I solved the exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
