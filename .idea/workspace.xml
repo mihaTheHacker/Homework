@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- I declared a new variable newDigitsString&#10;- I added 2 extra commands to print both the original and the modified information to the console">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/ReplaceStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- I created a new class ReplaceStrings.java&#10;- I created a new exercise in which I replaced a string">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/ReplaceDoublePrice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +58,7 @@
     "TestNG.PrintACharacter.printACharacter.executor": "Run",
     "TestNG.PrintAString.executor": "Run",
     "TestNG.ReplaceDigits.replaceDigits.executor": "Run",
+    "TestNG.ReplaceDoublePrice.executor": "Run",
     "TestNG.ReplaceStrings.executor": "Run",
     "TestNG.TheAreaOfASquare.calculateTheAreaOfASquare.executor": "Run",
     "TestNG.ThePerimeterOfARectangle.calculateThePerimeterOfARectangle.executor": "Run",
@@ -79,7 +79,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.ReplaceStrings">
+  <component name="RunManager" selected="TestNG.ReplaceDoublePrice">
     <configuration name="ConcatenateTwoStrings" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
@@ -90,23 +90,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="Homework" />
       <option name="MAIN_CLASS_NAME" value="Homework.ConcatenateTwoStrings" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintAString" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataTypesExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Homework" />
-      <option name="MAIN_CLASS_NAME" value="Homework.PrintAString" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -149,6 +132,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReplaceDoublePrice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataTypesExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework" />
+      <option name="MAIN_CLASS_NAME" value="Homework.ReplaceDoublePrice" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReplaceStrings" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
@@ -168,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ReplaceDoublePrice" />
         <item itemvalue="TestNG.ReplaceStrings" />
         <item itemvalue="TestNG.ReplaceDigits.replaceDigits" />
         <item itemvalue="TestNG.ReplaceCharacters" />
         <item itemvalue="TestNG.ConcatenateTwoStrings" />
-        <item itemvalue="TestNG.PrintAString" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +197,7 @@
       <workItem from="1734705050047" duration="4995000" />
       <workItem from="1734807358399" duration="4647000" />
       <workItem from="1736348050466" duration="17822000" />
-      <workItem from="1737026870635" duration="8011000" />
+      <workItem from="1737026870635" duration="8507000" />
     </task>
     <task id="LOCAL-00001" summary="- created Homework package&#10;- created class ThePerimeterOfARectangle and solved exercise&#10;- created ConvertMinutesIntoSeconds class and solved exercise">
       <option name="closed" value="true" />
@@ -335,7 +335,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737116611308</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="- I created a new class ReplaceStrings.java&#10;- I created a new exercise in which I replaced a string">
+      <option name="closed" value="true" />
+      <created>1737117576307</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1737117576307</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +377,8 @@
     <MESSAGE value="- created a new class ConcatenateTwoStrings.java and solved the second exercise" />
     <MESSAGE value="- created a new class ReplaceDigits.java and solved the replacement exercise for digits" />
     <MESSAGE value="- I declared a new variable newDigitsString&#10;- I added 2 extra commands to print both the original and the modified information to the console" />
-    <option name="LAST_COMMIT_MESSAGE" value="- I declared a new variable newDigitsString&#10;- I added 2 extra commands to print both the original and the modified information to the console" />
+    <MESSAGE value="- I created a new class ReplaceStrings.java&#10;- I created a new exercise in which I replaced a string" />
+    <option name="LAST_COMMIT_MESSAGE" value="- I created a new class ReplaceStrings.java&#10;- I created a new exercise in which I replaced a string" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
