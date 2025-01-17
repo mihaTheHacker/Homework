@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- created a new class ConcatenateTwoStrings.java and solved the second exercise">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/ReplaceDigits.java" afterDir="false" />
+    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- created a new class ReplaceDigits.java and solved the replacement exercise for digits">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework/ReplaceDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework/ReplaceDigits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +196,7 @@
       <workItem from="1734705050047" duration="4995000" />
       <workItem from="1734807358399" duration="4647000" />
       <workItem from="1736348050466" duration="17822000" />
-      <workItem from="1737026870635" duration="6214000" />
+      <workItem from="1737026870635" duration="6902000" />
     </task>
     <task id="LOCAL-00001" summary="- created Homework package&#10;- created class ThePerimeterOfARectangle and solved exercise&#10;- created ConvertMinutesIntoSeconds class and solved exercise">
       <option name="closed" value="true" />
@@ -318,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737042399869</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="- created a new class ReplaceDigits.java and solved the replacement exercise for digits">
+      <option name="closed" value="true" />
+      <created>1737115803416</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1737115803416</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +358,8 @@
     <MESSAGE value="- created a new class ConcatenateCharacterWithStringTest.java&#10;- solved exercise" />
     <MESSAGE value="- created a new branch String (String) Exercises&#10;- created a new class PrintAString.java and solved the first exercise" />
     <MESSAGE value="- created a new class ConcatenateTwoStrings.java and solved the second exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="- created a new class ConcatenateTwoStrings.java and solved the second exercise" />
+    <MESSAGE value="- created a new class ReplaceDigits.java and solved the replacement exercise for digits" />
+    <option name="LAST_COMMIT_MESSAGE" value="- created a new class ReplaceDigits.java and solved the replacement exercise for digits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
