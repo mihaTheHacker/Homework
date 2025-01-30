@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- I created a new class ModulusMagic.java&#10;- I solved the exercise">
-      <change afterPath="$PROJECT_DIR$/src/test/java/OperatorsIfBlocksAndSwitchBreakAndContinueExercises/CompoundAssignmentOperatorsExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OperatorsIfBlocksAndSwitchBreakAndContinueExercises/GradeCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +60,8 @@
     "TestNG.ConvertMinutesIntoSeconds.executor": "Run",
     "TestNG.DifferenceOfTwoIntegers.executor": "Run",
     "TestNG.DivisionOfTwoIntegers.executor": "Run",
+    "TestNG.GradeCalculator.GradeCalculator.executor": "Run",
+    "TestNG.GradeCalculator.gradeCalculator.executor": "Run",
     "TestNG.ModulusMagic.executor": "Run",
     "TestNG.MultiplicationOfTwoIntegers.executor": "Run",
     "TestNG.PrintACharacter.printACharacter.executor": "Run",
@@ -73,7 +75,7 @@
     "TestNG.ThePerimeterOfARectangle.executor": "Run",
     "TestNG.TheVolumeOfaCylinder.executor": "Run",
     "TestNG.theVolumeOfACylinder.executor": "Run",
-    "git-widget-placeholder": "Compound-Assignment-Operators",
+    "git-widget-placeholder": "If-Blocks",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/mibudeanu/IdeaProjects/Homework",
     "node.js.detected.package.eslint": "true",
@@ -88,7 +90,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.CompoundAssignmentOperatorsExercise">
+  <component name="RunManager" selected="TestNG.GradeCalculator.gradeCalculator">
     <configuration name="CompoundAssignmentOperatorsExercise" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
@@ -124,7 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivisionOfTwoIntegers" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GradeCalculator.GradeCalculator" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
         <pattern>
@@ -133,8 +135,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises" />
-      <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.DivisionOfTwoIntegers" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.GradeCalculator" />
+      <option name="METHOD_NAME" value="GradeCalculator" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeCalculator.gradeCalculator" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataTypesExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises" />
+      <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.GradeCalculator" />
+      <option name="METHOD_NAME" value="gradeCalculator" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -158,38 +179,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplicationOfTwoIntegers" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataTypesExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises" />
-      <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.MultiplicationOfTwoIntegers" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GradeCalculator.gradeCalculator" />
+        <item itemvalue="TestNG.GradeCalculator.GradeCalculator" />
         <item itemvalue="TestNG.CompoundAssignmentOperatorsExercise" />
         <item itemvalue="TestNG.CompoundAssignmentOperatorsExercise.compoundAssignmentOperators" />
         <item itemvalue="TestNG.ModulusMagic" />
-        <item itemvalue="TestNG.DivisionOfTwoIntegers" />
-        <item itemvalue="TestNG.MultiplicationOfTwoIntegers" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.153" />
       </set>
     </attachedChunks>
   </component>
@@ -208,6 +212,8 @@
       <workItem from="1736348050466" duration="17822000" />
       <workItem from="1737026870635" duration="11178000" />
       <workItem from="1737140793756" duration="9552000" />
+      <workItem from="1737982735240" duration="1766000" />
+      <workItem from="1738176482766" duration="2774000" />
     </task>
     <task id="LOCAL-00001" summary="- created Homework package&#10;- created class ThePerimeterOfARectangle and solved exercise&#10;- created ConvertMinutesIntoSeconds class and solved exercise">
       <option name="closed" value="true" />
