@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- I created a new class ModulusMagic.java&#10;- I solved the exercise">
-      <change afterPath="$PROJECT_DIR$/src/test/java/OperatorsIfBlocksAndSwitchBreakAndContinueExercises/CompoundAssignmentOperatorsExercise.java" afterDir="false" />
+    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- I created a new branch If-Blocks &#10;- I created a new class GradeCalculator.java and solved the exercise">
+      <change afterPath="$PROJECT_DIR$/src/test/java/OperatorsIfBlocksAndSwitchBreakAndContinueExercises/PasswordChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,8 +60,11 @@
     "TestNG.ConvertMinutesIntoSeconds.executor": "Run",
     "TestNG.DifferenceOfTwoIntegers.executor": "Run",
     "TestNG.DivisionOfTwoIntegers.executor": "Run",
+    "TestNG.GradeCalculator.GradeCalculator.executor": "Run",
+    "TestNG.GradeCalculator.gradeCalculator.executor": "Run",
     "TestNG.ModulusMagic.executor": "Run",
     "TestNG.MultiplicationOfTwoIntegers.executor": "Run",
+    "TestNG.PasswordChecker.passwordChecker.executor": "Run",
     "TestNG.PrintACharacter.printACharacter.executor": "Run",
     "TestNG.PrintAString.executor": "Run",
     "TestNG.ReplaceDigits.replaceDigits.executor": "Run",
@@ -73,7 +76,7 @@
     "TestNG.ThePerimeterOfARectangle.executor": "Run",
     "TestNG.TheVolumeOfaCylinder.executor": "Run",
     "TestNG.theVolumeOfACylinder.executor": "Run",
-    "git-widget-placeholder": "Compound-Assignment-Operators",
+    "git-widget-placeholder": "If-Blocks",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/mibudeanu/IdeaProjects/Homework",
     "node.js.detected.package.eslint": "true",
@@ -88,7 +91,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.CompoundAssignmentOperatorsExercise">
+  <component name="RunManager" selected="TestNG.PasswordChecker.passwordChecker">
     <configuration name="CompoundAssignmentOperatorsExercise" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
@@ -124,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivisionOfTwoIntegers" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GradeCalculator.GradeCalculator" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
         <pattern>
@@ -133,15 +136,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises" />
-      <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.DivisionOfTwoIntegers" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.GradeCalculator" />
+      <option name="METHOD_NAME" value="GradeCalculator" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModulusMagic" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GradeCalculator.gradeCalculator" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
         <pattern>
@@ -150,15 +154,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises" />
-      <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.ModulusMagic" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.GradeCalculator" />
+      <option name="METHOD_NAME" value="gradeCalculator" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplicationOfTwoIntegers" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PasswordChecker.passwordChecker" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
         <pattern>
@@ -167,8 +172,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises" />
-      <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.MultiplicationOfTwoIntegers" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.PasswordChecker" />
+      <option name="METHOD_NAME" value="passwordChecker" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -177,19 +183,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PasswordChecker.passwordChecker" />
+        <item itemvalue="TestNG.GradeCalculator.gradeCalculator" />
+        <item itemvalue="TestNG.GradeCalculator.GradeCalculator" />
         <item itemvalue="TestNG.CompoundAssignmentOperatorsExercise" />
         <item itemvalue="TestNG.CompoundAssignmentOperatorsExercise.compoundAssignmentOperators" />
-        <item itemvalue="TestNG.ModulusMagic" />
-        <item itemvalue="TestNG.DivisionOfTwoIntegers" />
-        <item itemvalue="TestNG.MultiplicationOfTwoIntegers" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.153" />
       </set>
     </attachedChunks>
   </component>
@@ -208,6 +214,8 @@
       <workItem from="1736348050466" duration="17822000" />
       <workItem from="1737026870635" duration="11178000" />
       <workItem from="1737140793756" duration="9552000" />
+      <workItem from="1737982735240" duration="1766000" />
+      <workItem from="1738176482766" duration="14768000" />
     </task>
     <task id="LOCAL-00001" summary="- created Homework package&#10;- created class ThePerimeterOfARectangle and solved exercise&#10;- created ConvertMinutesIntoSeconds class and solved exercise">
       <option name="closed" value="true" />
@@ -417,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737144943883</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="- I created a new branch If-Blocks &#10;- I created a new class GradeCalculator.java and solved the exercise">
+      <option name="closed" value="true" />
+      <created>1738238453666</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1738238453666</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +451,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="- created Homework package&#10;- created class ThePerimeterOfARectangle and solved exercise&#10;- created ConvertMinutesIntoSeconds class and solved exercise" />
     <MESSAGE value="- fixed alignment" />
     <MESSAGE value="- added a new class and calculated the area of a square" />
     <MESSAGE value="- added a new class and calculated the volume of a cylinder" />
@@ -460,7 +475,8 @@
     <MESSAGE value="- I created a new class MultiplicationOfTwoIntegers.java&#10;- I solved the exercise" />
     <MESSAGE value="- I created a new class DivisionOfTwoIntegers.java&#10;- I solved the exercise" />
     <MESSAGE value="- I created a new class ModulusMagic.java&#10;- I solved the exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="- I created a new class ModulusMagic.java&#10;- I solved the exercise" />
+    <MESSAGE value="- I created a new branch If-Blocks &#10;- I created a new class GradeCalculator.java and solved the exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="- I created a new branch If-Blocks &#10;- I created a new class GradeCalculator.java and solved the exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
