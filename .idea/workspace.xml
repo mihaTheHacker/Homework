@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- I created a new class ModulusMagic.java&#10;- I solved the exercise">
-      <change afterPath="$PROJECT_DIR$/src/test/java/OperatorsIfBlocksAndSwitchBreakAndContinueExercises/GradeCalculator.java" afterDir="false" />
+    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- I created a new branch If-Blocks &#10;- I created a new class GradeCalculator.java and solved the exercise">
+      <change afterPath="$PROJECT_DIR$/src/test/java/OperatorsIfBlocksAndSwitchBreakAndContinueExercises/PasswordChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +64,7 @@
     "TestNG.GradeCalculator.gradeCalculator.executor": "Run",
     "TestNG.ModulusMagic.executor": "Run",
     "TestNG.MultiplicationOfTwoIntegers.executor": "Run",
+    "TestNG.PasswordChecker.passwordChecker.executor": "Run",
     "TestNG.PrintACharacter.printACharacter.executor": "Run",
     "TestNG.PrintAString.executor": "Run",
     "TestNG.ReplaceDigits.replaceDigits.executor": "Run",
@@ -90,7 +91,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.GradeCalculator.gradeCalculator">
+  <component name="RunManager" selected="TestNG.PasswordChecker.passwordChecker">
     <configuration name="CompoundAssignmentOperatorsExercise" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
@@ -162,7 +163,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModulusMagic" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PasswordChecker.passwordChecker" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DataTypesExercises" />
       <extension name="coverage">
         <pattern>
@@ -171,8 +172,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises" />
-      <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.ModulusMagic" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.PasswordChecker" />
+      <option name="METHOD_NAME" value="passwordChecker" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -181,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PasswordChecker.passwordChecker" />
         <item itemvalue="TestNG.GradeCalculator.gradeCalculator" />
         <item itemvalue="TestNG.GradeCalculator.GradeCalculator" />
         <item itemvalue="TestNG.CompoundAssignmentOperatorsExercise" />
         <item itemvalue="TestNG.CompoundAssignmentOperatorsExercise.compoundAssignmentOperators" />
-        <item itemvalue="TestNG.ModulusMagic" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +215,7 @@
       <workItem from="1737026870635" duration="11178000" />
       <workItem from="1737140793756" duration="9552000" />
       <workItem from="1737982735240" duration="1766000" />
-      <workItem from="1738176482766" duration="2774000" />
+      <workItem from="1738176482766" duration="14768000" />
     </task>
     <task id="LOCAL-00001" summary="- created Homework package&#10;- created class ThePerimeterOfARectangle and solved exercise&#10;- created ConvertMinutesIntoSeconds class and solved exercise">
       <option name="closed" value="true" />
@@ -423,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737144943883</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="- I created a new branch If-Blocks &#10;- I created a new class GradeCalculator.java and solved the exercise">
+      <option name="closed" value="true" />
+      <created>1738238453666</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1738238453666</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +451,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="- created Homework package&#10;- created class ThePerimeterOfARectangle and solved exercise&#10;- created ConvertMinutesIntoSeconds class and solved exercise" />
     <MESSAGE value="- fixed alignment" />
     <MESSAGE value="- added a new class and calculated the area of a square" />
     <MESSAGE value="- added a new class and calculated the volume of a cylinder" />
@@ -466,7 +475,8 @@
     <MESSAGE value="- I created a new class MultiplicationOfTwoIntegers.java&#10;- I solved the exercise" />
     <MESSAGE value="- I created a new class DivisionOfTwoIntegers.java&#10;- I solved the exercise" />
     <MESSAGE value="- I created a new class ModulusMagic.java&#10;- I solved the exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="- I created a new class ModulusMagic.java&#10;- I solved the exercise" />
+    <MESSAGE value="- I created a new branch If-Blocks &#10;- I created a new class GradeCalculator.java and solved the exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="- I created a new branch If-Blocks &#10;- I created a new class GradeCalculator.java and solved the exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
