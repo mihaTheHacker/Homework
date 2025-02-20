@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- I created a new branch If-Blocks &#10;- I created a new class GradeCalculator.java and solved the exercise">
-      <change afterPath="$PROJECT_DIR$/src/test/java/OperatorsIfBlocksAndSwitchBreakAndContinueExercises/PasswordChecker.java" afterDir="false" />
+    <list default="true" id="bbdb0dd8-f521-4af1-8cdc-8997ac2213fc" name="Changes" comment="- I created a new branch If-Blocks &#10;- I created a new class PasswordChecker.java and solved the exercise">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +44,7 @@
     "Application.BooleanComparison (1).executor": "Run",
     "Application.BooleanComparison.executor": "Run",
     "Application.CheckingWeatherConditions.executor": "Run",
+    "Application.LeapYearChecker.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -62,6 +62,8 @@
     "TestNG.DivisionOfTwoIntegers.executor": "Run",
     "TestNG.GradeCalculator.GradeCalculator.executor": "Run",
     "TestNG.GradeCalculator.gradeCalculator.executor": "Run",
+    "TestNG.LeapYearChecker.executor": "Run",
+    "TestNG.LeapYearChecker.leapYearChecker.executor": "Run",
     "TestNG.ModulusMagic.executor": "Run",
     "TestNG.MultiplicationOfTwoIntegers.executor": "Run",
     "TestNG.PasswordChecker.passwordChecker.executor": "Run",
@@ -91,8 +93,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.PasswordChecker.passwordChecker">
-    <configuration name="CompoundAssignmentOperatorsExercise" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.LeapYearChecker">
+    <configuration name="LeapYearChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.LeapYearChecker" />
       <module name="DataTypesExercises" />
       <extension name="coverage">
         <pattern>
@@ -100,47 +103,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises" />
-      <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.CompoundAssignmentOperatorsExercise" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompoundAssignmentOperatorsExercise.compoundAssignmentOperators" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataTypesExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises" />
-      <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.CompoundAssignmentOperatorsExercise" />
-      <option name="METHOD_NAME" value="compoundAssignmentOperators" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GradeCalculator.GradeCalculator" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DataTypesExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises" />
-      <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.GradeCalculator" />
-      <option name="METHOD_NAME" value="GradeCalculator" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,6 +118,41 @@
       <option name="PACKAGE_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises" />
       <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.GradeCalculator" />
       <option name="METHOD_NAME" value="gradeCalculator" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeapYearChecker" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataTypesExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises" />
+      <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.LeapYearChecker" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeapYearChecker.leapYearChecker" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataTypesExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises" />
+      <option name="MAIN_CLASS_NAME" value="OperatorsIfBlocksAndSwitchBreakAndContinueExercises.LeapYearChecker" />
+      <option name="METHOD_NAME" value="leapYearChecker" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -183,19 +180,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeapYearChecker" />
+        <item itemvalue="TestNG.LeapYearChecker" />
+        <item itemvalue="TestNG.LeapYearChecker.leapYearChecker" />
         <item itemvalue="TestNG.PasswordChecker.passwordChecker" />
         <item itemvalue="TestNG.GradeCalculator.gradeCalculator" />
-        <item itemvalue="TestNG.GradeCalculator.GradeCalculator" />
-        <item itemvalue="TestNG.CompoundAssignmentOperatorsExercise" />
-        <item itemvalue="TestNG.CompoundAssignmentOperatorsExercise.compoundAssignmentOperators" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.153" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
       </set>
     </attachedChunks>
   </component>
@@ -216,6 +213,7 @@
       <workItem from="1737140793756" duration="9552000" />
       <workItem from="1737982735240" duration="1766000" />
       <workItem from="1738176482766" duration="14768000" />
+      <workItem from="1739975638320" duration="2571000" />
     </task>
     <task id="LOCAL-00001" summary="- created Homework package&#10;- created class ThePerimeterOfARectangle and solved exercise&#10;- created ConvertMinutesIntoSeconds class and solved exercise">
       <option name="closed" value="true" />
@@ -433,7 +431,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738238453666</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="- I created a new branch If-Blocks &#10;- I created a new class PasswordChecker.java and solved the exercise">
+      <option name="closed" value="true" />
+      <created>1739975909326</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1739975909326</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +457,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="- fixed alignment" />
     <MESSAGE value="- added a new class and calculated the area of a square" />
     <MESSAGE value="- added a new class and calculated the volume of a cylinder" />
     <MESSAGE value="- added a new class and converted the temperature, from Fahnrenheit to Celsius" />
@@ -476,7 +481,8 @@
     <MESSAGE value="- I created a new class DivisionOfTwoIntegers.java&#10;- I solved the exercise" />
     <MESSAGE value="- I created a new class ModulusMagic.java&#10;- I solved the exercise" />
     <MESSAGE value="- I created a new branch If-Blocks &#10;- I created a new class GradeCalculator.java and solved the exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="- I created a new branch If-Blocks &#10;- I created a new class GradeCalculator.java and solved the exercise" />
+    <MESSAGE value="- I created a new branch If-Blocks &#10;- I created a new class PasswordChecker.java and solved the exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="- I created a new branch If-Blocks &#10;- I created a new class PasswordChecker.java and solved the exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
